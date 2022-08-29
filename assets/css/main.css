@@ -2824,7 +2824,7 @@ input, select, textarea {
 		}
 
 		.main.style2 {
-			background-color: #333;
+			/* background-color: #333; */
 			color: rgba(255, 255, 255, 0.75);
 			background-attachment: fixed, fixed;
 			background-image: linear-gradient(45deg, #D0F1FE 20%, #153065);
@@ -2915,7 +2915,7 @@ input, select, textarea {
 
 	#header {
 		padding: 6em 0 6em 0 ;
-		background-color: #4686a0;
+		/* background-color: #4686a0; */
 		color: rgba(255, 255, 255, 0.75);
 		background-attachment: fixed,fixed,	fixed;
 		background-image: linear-gradient(45deg, #E0FFFF 5%, #D0F1FE 25%, #274C70 25%, #153065);
@@ -3111,7 +3111,7 @@ input, select, textarea {
 
 	#footer {
 		padding: 6em 0 6em 0 ;
-		background-color: #4686a0;
+		/* background-color: #4686a0; */
 		color: rgba(255, 255, 255, 0.75);
 		background-attachment: fixed, fixed, fixed;
 		background-image: linear-gradient(45deg, #D0F1FE 20%, #153065);

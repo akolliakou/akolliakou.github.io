@@ -2723,7 +2723,7 @@ input, select, textarea {
 		input[type="button"]:hover,
 		button:hover,
 		.button:hover {
-			color: #FD7547;
+			background-color: #FD7547;
 		}
 
 		input[type="submit"]:active,
@@ -2789,7 +2789,7 @@ input, select, textarea {
 			input[type="button"].primary:hover,
 			button.primary:hover,
 			.button.primary:hover {
-				color: #FD7547;
+				background-color: #FD7547;
 			}
 
 			input[type="submit"].primary:active,
@@ -2866,7 +2866,7 @@ input, select, textarea {
 				.main.style2 input[type="button"]:hover,
 				.main.style2 button:hover,
 				.main.style2 .button:hover {
-					color: #FD7547;
+					background-color: #FD7547;
 				}
 
 				.main.style2 input[type="submit"]:active,
@@ -2892,7 +2892,7 @@ input, select, textarea {
 					.main.style2 input[type="button"].primary:hover,
 					.main.style2 button.primary:hover,
 					.main.style2 .button.primary:hover {
-						color: #FD7547;
+						background-color: #FD7547;
 						/* color: #ffffff !important; */
 					}
 
@@ -2961,7 +2961,7 @@ input, select, textarea {
 			#header input[type="button"]:hover,
 			#header button:hover,
 			#header .button:hover {
-				color: #FD7547;
+				background-color: #FD7547;
 			}
 
 			#header input[type="submit"]:active,
@@ -2987,7 +2987,7 @@ input, select, textarea {
 				#header input[type="button"].primary:hover,
 				#header button.primary:hover,
 				#header .button.primary:hover {
-					color: #FD7547 !important;
+					background-color: #FD7547 !important;
 					/* color: #ffffff !important; */
 				}
 
@@ -3155,7 +3155,7 @@ input, select, textarea {
 			#footer input[type="button"]:hover,
 			#footer button:hover,
 			#footer .button:hover {
-				color: #FD7547;
+				background-color: #FD7547;
 			}
 
 			#footer input[type="submit"]:active,
@@ -3181,7 +3181,7 @@ input, select, textarea {
 				#footer input[type="button"].primary:hover,
 				#footer button.primary:hover,
 				#footer .button.primary:hover {
-					color: #FD7547 !important;
+					background-color: #FD7547 !important;
 					/* color: #ffffff !important; */
 				}
 

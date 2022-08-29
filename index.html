@@ -1,12 +1,131 @@
-<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE HTML>
+<html>
+
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Anna Kolliakou</title>
+  <title>Daniel Marino</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+  <link rel="stylesheet" href="assets/css/main.css" />
+  <noscript>
+    <link rel="stylesheet" href="assets/css/noscript.css" />
+  </noscript>
 </head>
-<body>
-  
+
+<body class="is-preload">
+  <section id="header">
+    <div class="inner">
+      <div id="name-nav">
+        <h1>Anna Kolliakou</h1>
+        <nav id="nav">
+          <ul class="icons">
+            <li><a target="_blank" href="https://www.linkedin.com/in/annakolliakou/"
+                class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
+            <li><a target="_blank" href="https://github.com/akolliakou" class="icon brands fa-github"><span
+                  class="label">GitHub</span></a></li>
+            <li><a target="_blank" href="assets/Anna_Kolliakou_CV.pdf" class="icon fas fa-file-alt"><span
+                  class="label">Resume</span></a></li>
+            <li><a href="mailto:akolliakou@gmail.com" class="icon solid alt fa-envelope"><span
+                  class="label">Email</span></a></li>
+          </ul>
+        </nav>
+      </div>
+      <img id="profile" src="./images/profile.jpg" alt="Portrait of Dan Marino in Vermont">
+      <div id="bio">
+        <p>I'm a software engineer in London, UK, with experience in JavaScript/Node.js, Ruby, SQL, AWS, and React.</p>
+        <p>Most recently, I built <a class="haven" href="https://haven-secrets.github.io/">Kuri</a>, a Dead-Letter Queue-as-a-Service 
+          for small, distributed applications deployed on AWS infrastructure.</p>
+      </div>
+      <ul class="actions special">
+        <li><a href="#one" class="button scrolly">Kuri</a></li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- One -->
+  <section id="one" class="main style1">
+    <div class="container">
+      <div class="row gtr-150">
+        <div class="col-6 col-12-medium">
+          <header class="major">
+            <h2><a class="haven" href="https://kuri-dlq.github.io/">Kuri</a></h2>
+          </header>
+          <p>Kuri is a Dead-Letter Queue-as-a-Service for Amazon Web Services (AWS)-Based Microservices Architectures. It provides
+          the user with the ability to view, edit, redrive and delete messages in their Dead-Letter Queue (DLQ).</p>
+          <p>Kuri creates an AWS infrastructure to construct a DLQ with increased functionality and observability for the user. Kuri
+          can be used when building a brand new project or added on to an existing project that uses a message queue.
+          </p>
+          <ul class="actions special">
+            <li><a href="https://kuri-dlq.github.io/case-study" class="button">Read the Case Study</a></li>
+          </ul>
+        </div>
+        <div class="col-6 col-12-medium imp-medium">
+          <span><a class="haven" href="https://kuri-dlq.github.io/"><img class="logo" src="images/haven-alt.png"
+                alt="Haven Logo" /></a><span class="image fit"></span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Three -->
+  <section id="three" class="main style2 special">
+    <div class="container">
+      <header class="major">
+        <h2>Projects</h2>
+      </header>
+      <div class="row gtr-150">
+        <div class="col-4 col-12-medium">
+          <span class="image fit"><img src="images/ticket-manager.png" alt="" /></span>
+          <h3>Request Bucket</h3>
+          <p>a real-time application for capturing and monitoring webhooks. Built using <i class="haven">Node.js</i>, 
+            <i class="haven">Express</i>, <i class="haven">MongoDB</i> and <i class="haven">PostgreSQL</i>. Deployed on Digital Ocean.</p>
+        </div>
+        <div class="col-4 col-12-medium">
+          <span class="image fit"><img src="images/request-bin.png" alt="" /></span>
+          <h3>Bello</h3>
+          <p>A Trello-like collaboration app. Built using <i class="haven">Node.js</i>,
+            <i class="haven">Express</i>, <i class="haven">React</i>, <i class="haven">Redux</i> 
+            and <i class="haven">MongoDB</i>.
+          </p>
+        </div>
+        <div class="col-4 col-12-medium">
+          <span class="image fit"><img src="images/reaction.png" alt="" /></span>
+          <h3>Shopping Cart</h3>
+          <p>A database-backed e-commerce application. Built using <i class="haven">Node.js</i>, 
+            <i class="haven">Express</i>, <i class="haven">React</i>, <i class="haven">Redux</i> 
+            and <i class="haven">MongoDB</i>.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <section id="footer">
+    <ul class="icons">
+      <li><a target="_blank" href="https://www.linkedin.com/in/annakolliakou/"
+          class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
+      <li><a target="_blank" href="https://github.com/akolliakou" class="icon brands fa-github"><span
+            class="label">GitHub</span></a></li>
+      <li><a target="_blank" href="assets/Anna_Kolliakou_CV.pdf" class="icon fas fa-file-alt"><span
+            class="label">CV</span></a></li>
+      <li><a href="mailto:akolliakou@gmail.com" class="icon solid alt fa-envelope"><span
+            class="label">Email</span></a></li>
+    </ul>
+    <ul class="copyright">
+      <li>&copy; Anna Kolliakou</li>
+      <li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+    </ul>
+  </section>
+
+  <!-- Scripts -->
+  <script src="assets/js/jquery.min.js"></script>
+  <script src="assets/js/jquery.scrolly.min.js"></script>
+  <script src="assets/js/browser.min.js"></script>
+  <script src="assets/js/breakpoints.min.js"></script>
+  <script src="assets/js/util.js"></script>
+  <script src="assets/js/main.js"></script>
+
 </body>
+
 </html>

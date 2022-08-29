@@ -2452,6 +2452,7 @@ input, select, textarea {
 		ul.actions li {
 			padding: 0 0 0 1em;
 			vertical-align: middle;
+			background-color: #FD7547;
 		}
 
 		ul.actions.special {
@@ -2723,7 +2724,7 @@ input, select, textarea {
 		input[type="button"]:hover,
 		button:hover,
 		.button:hover {
-			background-color: #FD7547;
+			color: #FD7547;
 		}
 
 		input[type="submit"]:active,
@@ -2789,7 +2790,7 @@ input, select, textarea {
 			input[type="button"].primary:hover,
 			button.primary:hover,
 			.button.primary:hover {
-				background-color: #FD7547;
+				color: #FD7547;
 			}
 
 			input[type="submit"].primary:active,
@@ -2865,7 +2866,7 @@ input, select, textarea {
 				.main.style2 input[type="button"]:hover,
 				.main.style2 button:hover,
 				.main.style2 .button:hover {
-					background-color: #FD7547;
+					color: #FD7547;
 				}
 
 				.main.style2 input[type="submit"]:active,
@@ -2891,7 +2892,7 @@ input, select, textarea {
 					.main.style2 input[type="button"].primary:hover,
 					.main.style2 button.primary:hover,
 					.main.style2 .button.primary:hover {
-						background-color: #FD7547;
+						color: #FD7547;
 						/* color: #ffffff !important; */
 					}
 

@@ -2828,6 +2828,10 @@ input, select, textarea {
 			background: #fff;
 		}
 
+		.main.style1.button:hover {
+			color: #FD7547;
+		}
+
 		.main.style2 {
 			background-color: #333;
 			color: rgba(255, 255, 255, 0.75);

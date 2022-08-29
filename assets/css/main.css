@@ -1,5 +1,5 @@
 @import url("fontawesome-all.min.css");
-@import url('http://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300ita‌​lic,400italic,500,500italic,700,700italic,900italic,900');
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300ita‌​lic,400italic,500,500italic,700,700italic,900italic,900');
 
 /*
 	Photon by HTML5 UP
@@ -3524,7 +3524,7 @@ input, select, textarea {
 
 	}
 
-	.haven {
+	.kuri {
 		font-style: normal;
 	}
 
@@ -3573,7 +3573,7 @@ input, select, textarea {
 			/* display: block; */
 			/* width: 100% */
 		}
-		
+
 		#bio {
 			font-size: 1.2rem;
 		}

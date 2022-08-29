@@ -2459,6 +2459,10 @@ input, select, textarea {
 			background-color: rgba(144, 144, 144, 0.075);
 		}
 
+		ul.actions:not(.first) li a:hover {
+			color: #FD7547;
+		}
+
 		ul.actions.special {
 			/* -moz-justify-content: center;
 			-webkit-justify-content: center;

@@ -2723,7 +2723,7 @@ input, select, textarea {
 		input[type="button"]:hover,
 		button:hover,
 		.button:hover {
-			background-color: #FD7547;
+			color: #FD7547;
 		}
 
 		input[type="submit"]:active,
@@ -2789,7 +2789,7 @@ input, select, textarea {
 			input[type="button"].primary:hover,
 			button.primary:hover,
 			.button.primary:hover {
-				background-color: #FD7547;
+				color: #FD7547;
 			}
 
 			input[type="submit"].primary:active,
@@ -2866,7 +2866,7 @@ input, select, textarea {
 				.main.style2 input[type="button"]:hover,
 				.main.style2 button:hover,
 				.main.style2 .button:hover {
-					background-color: #FD7547;
+					color: #FD7547;
 				}
 
 				.main.style2 input[type="submit"]:active,
@@ -2892,8 +2892,8 @@ input, select, textarea {
 					.main.style2 input[type="button"].primary:hover,
 					.main.style2 button.primary:hover,
 					.main.style2 .button.primary:hover {
-						background-color: #FD7547;
-						color: #ffffff !important;
+						color: #FD7547;
+						/* color: #ffffff !important; */
 					}
 
 					.main.style2 input[type="submit"].primary:active,
@@ -2961,7 +2961,7 @@ input, select, textarea {
 			#header input[type="button"]:hover,
 			#header button:hover,
 			#header .button:hover {
-				background-color: #FD7547;
+				color: #FD7547;
 			}
 
 			#header input[type="submit"]:active,
@@ -2987,8 +2987,8 @@ input, select, textarea {
 				#header input[type="button"].primary:hover,
 				#header button.primary:hover,
 				#header .button.primary:hover {
-					background-color: #FD7547 !important;
-					color: #ffffff !important;
+					color: #FD7547 !important;
+					/* color: #ffffff !important; */
 				}
 
 				#header input[type="submit"].primary:active,
@@ -3155,7 +3155,7 @@ input, select, textarea {
 			#footer input[type="button"]:hover,
 			#footer button:hover,
 			#footer .button:hover {
-				background-color: #FD7547;
+				color: #FD7547;
 			}
 
 			#footer input[type="submit"]:active,
@@ -3181,8 +3181,8 @@ input, select, textarea {
 				#footer input[type="button"].primary:hover,
 				#footer button.primary:hover,
 				#footer .button.primary:hover {
-					background-color: #FD7547 !important;
-					color: #ffffff !important;
+					color: #FD7547 !important;
+					/* color: #ffffff !important; */
 				}
 
 				#footer input[type="submit"].primary:active,

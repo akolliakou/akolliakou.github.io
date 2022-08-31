@@ -2471,6 +2471,10 @@ input, select, textarea {
 		padding-left: 0;
 	}
 
+		ul.actions.special.first {
+			padding-top: 6.5%;
+		}
+
 		ul.actions.special.first li {
 			background-color: #FD7547;
 		}
@@ -2955,6 +2959,7 @@ input, select, textarea {
 		overflow: hidden;
 		position: relative;
 		text-align: center;
+		
 	}
 
 		#header a {

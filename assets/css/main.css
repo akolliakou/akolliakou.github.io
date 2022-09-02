@@ -2851,7 +2851,7 @@ input, select, textarea {
 	}
 
 		.main.style1 {
-			background: #fff;
+		  background: #ffff;
 		}
 
 		.main.style1.button:hover {
@@ -3582,14 +3582,13 @@ input, select, textarea {
 		text-align: left;
 		width: 66%;
 		float: right;
-		margin: 0 2%;
+		margin: 1.5% 2%;
 	}
 
 	#name-nav {
 		width: 68%;
 		float: right;
 		font-size: 1.5rem;
-		margin: 0 1%;
 	}
 
 	@media screen and (max-width: 1000px) {
